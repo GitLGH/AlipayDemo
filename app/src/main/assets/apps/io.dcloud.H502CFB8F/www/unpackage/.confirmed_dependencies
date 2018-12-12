@@ -1,0 +1,277 @@
+{
+  "index.html": {
+    "resources": [
+      "page/home.html",
+      "js/jquery-3.3.1.min.js",
+      "js/mui.js",
+      "css/mui.css",
+      "css/iconfont.css",
+      "css/index.css",
+      "page/my.html"
+    ],
+    "refer": [
+      "page/home.html",
+      "page/yyzx.html",
+      "page/my.html"
+    ]
+  },
+  "page/home.html": {
+    "refer": [
+      "page/tzgg-list.html",
+      "page/csdw.html"
+    ],
+    "resources": [
+      "css/mui.css",
+      "css/base-style.css",
+      "css/mui.showLoading.css",
+      "css/home.css",
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/base-function.js",
+      "js/mui.showLoading.js",
+      "js/home.js",
+      "img/dw.png",
+      "img/sqdz.png",
+      "img/mszk.png",
+      "img/login.png"
+    ]
+  },
+  "page/my.html": {
+    "refer": [
+      "page/login.html",
+      "page/version.html",
+      "page/fankui.html",
+      "page/password.html",
+      "page/details.html"
+    ],
+    "resources": [
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "css/my.css",
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/version.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "js/my.js",
+      "img/login.png",
+      "img/weixin.png",
+      "img/zfb.png",
+      "img/photo.jpg",
+      "img/zsxm.png",
+      "img/dz.png",
+      "img/dh.png",
+      "img/yx.png",
+      "img/yjfk.png",
+      "img/xtbb.png",
+      "img/yhzx.png"
+    ]
+  },
+  "page/tzgg-list.html": {
+    "refer": [
+      "page/tzgg-detail.html"
+    ],
+    "resources": [
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "css/tzgg-list.css",
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "js/tzgg-list.js"
+    ]
+  },
+  "page/tzgg-detail.html": {
+    "href": "page/tzgg-detail.html",
+    "resources": [
+      "css/mui.css",
+      "css/base-style.css",
+      "css/mui.showLoading.css",
+      "css/tzgg-detail.css",
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/base-function.js",
+      "js/mui.showLoading.js",
+      "js/tzgg-detail.js"
+    ],
+    "refer": [
+      "page/tzgg-list.html"
+    ],
+    "priority": 0
+  },
+  "page/version.html": {
+    "href": "page/version.html",
+    "resources": [
+      "css/mui.css",
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/version.js",
+      "js/mui.js",
+      "js/common.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/login.html": {
+    "href": "page/login.html",
+    "resources": [
+      "css/mui.css",
+      "css/login.css",
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/common.js",
+      "js/login.js",
+      "img/login.png",
+      "img/weixin.png",
+      "img/zfb.png"
+    ],
+    "refer": [
+      "page/register.html",
+      "page/forget-password.html",
+      "index.html",
+      "page/wechat.html"
+    ],
+    "priority": 0
+  },
+  "page/details.html": {
+    "href": "page/details.html",
+    "resources": [
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "js/details.js",
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "css/details.css",
+      "img/zsxm.png",
+      "img/dz.png",
+      "img/dh.png",
+      "img/yx.png",
+      "img/sfz.png",
+      "img/xb.png",
+      "js/common.js",
+      "js/mui.view.js",
+      "img/photo.jpg",
+      "img/photo.png"
+    ],
+    "refer": [
+      "page/cropper.html"
+    ],
+    "priority": 0
+  },
+  "page/password.html": {
+    "href": "page/password.html",
+    "resources": [
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "js/common.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/fankui.html": {
+    "href": "page/fankui.html",
+    "resources": [
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "css/mui.css",
+      "css/mui.showLoading.css"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/yyzx.html": {
+    "href": "page/yyzx.html",
+    "resources": [
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "css/yyzx.css",
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "js/yyzx.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/forget-password.html": {
+    "href": "page/forget-password.html",
+    "resources": [
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "js/common.js",
+      "js/forget-password.js",
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "css/forget-password.css"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/register.html": {
+    "href": "page/register.html",
+    "resources": [
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "js/common.js",
+      "js/register.js",
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "css/register.css"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/csdw.html": {
+    "href": "page/csdw.html",
+    "resources": [
+      "css/mui.css",
+      "css/mui.showLoading.css",
+      "js/jquery-3.3.1.min.js",
+      "js/common.js",
+      "js/apis.js",
+      "js/version.js",
+      "js/mui.js",
+      "js/mui.showLoading.js",
+      "js/csdw.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/cropper.html": {
+    "href": "page/cropper.html",
+    "resources": [
+      "js/jquery-3.3.1.min.js",
+      "js/apis.js",
+      "js/mui.min.js",
+      "js/hammer.min.js",
+      "js/lrz.all.bundle.js",
+      "js/iscroll-zoom-min.js",
+      "js/PhotoClip.js",
+      "js/cropper.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "page/wechat.html": {
+    "refer": [
+      "index.html"
+    ]
+  }
+}
